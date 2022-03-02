@@ -1,13 +1,9 @@
 import { StyleSheet, View, Text } from 'react-native'
 
-import { RootTabScreenProps } from '../../types'
-
-export default function TabOneScreen({
-  navigation,
-}: RootTabScreenProps<'TabOne'>) {
+export default function Search() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
+      <Text style={styles.title}>Search</Text>
       <View style={styles.separator} />
     </View>
   )

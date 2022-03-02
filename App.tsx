@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar'
-import { SafeAreaProvider } from 'react-native-safe-area-context'
+import { ThemeProvider } from 'styled-components'
 import AppLoading from 'expo-app-loading'
 import { useFonts } from 'expo-font'
 import {
@@ -10,6 +10,7 @@ import {
 } from '@expo-google-fonts/red-hat-display'
 
 import Navigation from './src/navigation'
+import theme from './src/styles/theme'
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -23,10 +24,10 @@ export default function App() {
     return <AppLoading />
   } else {
     return (
-      <SafeAreaProvider>
+      <ThemeProvider theme={theme}>
         <Navigation />
-        <StatusBar />
-      </SafeAreaProvider>
+        <StatusBar style='light' />
+      </ThemeProvider>
     )
   }
 }

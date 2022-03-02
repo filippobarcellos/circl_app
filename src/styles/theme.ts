@@ -1,4 +1,4 @@
-const theme = {
+export default {
   colors: {
     shades: {
       90: '#020018',
@@ -17,6 +17,11 @@ const theme = {
         1: '#19181E',
         2: '#FDFDFF',
       },
+    },
+    white: '#FFFFFF',
+    gray: {
+      50: '',
+      100: '#818190',
     },
   },
   fonts: {
@@ -49,5 +54,3 @@ const theme = {
     xl: '32px',
   },
 }
-
-export { theme }
