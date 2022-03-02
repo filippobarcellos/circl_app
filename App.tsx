@@ -1,14 +1,26 @@
 import { StatusBar } from 'expo-status-bar'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
+import AppLoading from 'expo-app-loading'
+import { useFonts } from 'expo-font'
+import {
+  RedHatDisplay_400Regular,
+  RedHatDisplay_500Medium,
+  RedHatDisplay_700Bold,
+  RedHatDisplay_900Black,
+} from '@expo-google-fonts/red-hat-display'
 
-import useCachedResources from './src/hooks/useCachedResources'
 import Navigation from './src/navigation'
 
 export default function App() {
-  const isLoadingComplete = useCachedResources()
+  const [fontsLoaded] = useFonts({
+    RedHatDisplay_400Regular,
+    RedHatDisplay_500Medium,
+    RedHatDisplay_700Bold,
+    RedHatDisplay_900Black,
+  })
 
-  if (!isLoadingComplete) {
-    return null
+  if (!fontsLoaded) {
+    return <AppLoading />
   } else {
     return (
       <SafeAreaProvider>
