@@ -1,0 +1,1 @@
+export { TelevisedLabel } from './TelevisedLabel'

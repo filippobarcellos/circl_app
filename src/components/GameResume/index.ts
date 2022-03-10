@@ -1,0 +1,1 @@
+export { GameResume } from './GameResume'

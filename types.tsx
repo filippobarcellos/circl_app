@@ -7,14 +7,19 @@ import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
 declare global {
   namespace ReactNavigation {
-    interface RootParamList extends RootStackParamList {}
+    interface RootParamList
+      extends RootStackParamList,
+        FixturesStackParamList {}
   }
 }
 
 export type RootStackParamList = {
   Root: NavigatorScreenParams<RootTabParamList> | undefined
-  Modal: undefined
-  NotFound: undefined
+}
+
+export type FixturesStackParamList = {
+  Home: undefined
+  FixtureDetails: undefined
 }
 
 export type RootStackScreenProps<Screen extends keyof RootStackParamList> =
@@ -22,7 +27,7 @@ export type RootStackScreenProps<Screen extends keyof RootStackParamList> =
 
 export type RootTabParamList = {
   Fixtures: undefined
-  Search: undefined
+  Home: undefined
   Profile: undefined
 }
 

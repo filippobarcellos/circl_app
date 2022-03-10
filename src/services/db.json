@@ -1,0 +1,308 @@
+{
+  "matches": [
+    {
+      "id": "1111",
+      "status": "planned",
+      "televised": true,
+      "count": "0",
+      "time": "14:00",
+      "date": "2022-03-10",
+      "league": "Premier League",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "43434343",
+      "status": "planned",
+      "televised": true,
+      "count": "0",
+      "time": "14:00",
+      "date": "2022-03-11",
+      "league": "Premier League",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "323232",
+      "status": "planned",
+      "televised": true,
+      "count": "0",
+      "time": "14:00",
+      "date": "2022-03-11",
+      "league": "Premier League",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "2222",
+      "status": "planned",
+      "televised": false,
+      "count": "0",
+      "time": "15:00",
+      "date": "2022-03-10",
+      "league": "Premier League",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "3333",
+      "status": "planned",
+      "televised": false,
+      "count": "0",
+      "time": "14:00",
+      "date": "2022-03-07",
+      "league": "Premier League",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 2
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "4444",
+      "status": "done",
+      "televised": true,
+      "count": "0",
+      "time": "14:00",
+      "date": "2022-03-08",
+      "league": "Premier League",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 1
+      }
+    },
+    {
+      "id": "5555",
+      "status": "planned",
+      "televised": true,
+      "count": "0",
+      "time": "14:00",
+      "date": "2022-03-10",
+      "league": "FA Cup",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "6666",
+      "status": "planned",
+      "televised": false,
+      "count": "0",
+      "time": "14:00",
+      "date": "2022-03-10",
+      "league": "FA Cup",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "7777",
+      "status": "done",
+      "televised": true,
+      "count": "0",
+      "time": "14:00",
+      "date": "2022-03-08",
+      "league": "FA Cup",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 2
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "8888",
+      "status": "planned",
+      "league": "FA Cup",
+      "televised": false,
+      "count": "0",
+      "time": "14:00",
+      "date": "2022-03-15",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "9999",
+      "status": "planned",
+      "televised": false,
+      "count": "0",
+      "time": "14:00",
+      "date": "2022-03-15",
+      "league": "FA Cup",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "1000",
+      "status": "live",
+      "televised": false,
+      "count": "28",
+      "time": "14:00",
+      "date": "2022-03-10",
+      "league": "FA Cup",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "1100",
+      "status": "live",
+      "televised": false,
+      "count": "32",
+      "time": "14:00",
+      "date": "2022-03-10",
+      "league": "FA Cup",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 0
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 1
+      }
+    },
+    {
+      "id": "9999",
+      "status": "live",
+      "televised": false,
+      "count": "04",
+      "time": "14:00",
+      "date": "2022-03-10",
+      "league": "FA Cup",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 2
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "512424241",
+      "status": "planned",
+      "televised": false,
+      "count": "04",
+      "time": "14:00",
+      "date": "2022-03-14",
+      "league": "FA Cup",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 2
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    },
+    {
+      "id": "332332312",
+      "status": "planned",
+      "televised": false,
+      "count": "04",
+      "time": "14:00",
+      "date": "2022-03-14",
+      "league": "FA Cup",
+      "homeTeam": {
+        "name": "Manchester United",
+        "short_name": "mun",
+        "score": 2
+      },
+      "awayTeam": {
+        "name": "Newcastle United",
+        "short_name": "new",
+        "score": 0
+      }
+    }
+  ]
+}

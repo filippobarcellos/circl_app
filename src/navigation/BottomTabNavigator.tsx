@@ -1,12 +1,14 @@
 import React from 'react'
 import { Platform } from 'react-native'
-import { FontAwesome } from '@expo/vector-icons'
+import { Feather } from '@expo/vector-icons'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { getBottomSpace } from 'react-native-iphone-x-helper'
 
-import { Fixtures, Search, Profile } from '@screens/index'
 import { RootTabParamList } from '../../types'
 import theme from '@styles/theme'
+import CirclIcon from '@assets/icons/Circl'
+import { Fixtures, Home, Profile } from '@screens/index'
+import { FixtureNavigator } from './FixtureNavigator'
 
 const BottomTab = createBottomTabNavigator<RootTabParamList>()
 
@@ -22,33 +24,30 @@ export function BottomTabNavigator() {
         tabBarStyle: {
           backgroundColor: theme.colors.shades[120],
           borderTopColor: 'transparent',
-          borderTopLeftRadius: 32,
-          borderTopRightRadius: 32,
-          marginTop: -32,
-          height: Platform.OS === 'ios' ? getBottomSpace() + 60 : 80,
+          height: Platform.OS === 'ios' ? getBottomSpace() + 46 : 80,
           paddingVertical: 12,
         },
       }}
     >
       <BottomTab.Screen
         name='Fixtures'
-        component={Fixtures}
+        component={FixtureNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name='code' color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name='search' color={color} />,
         }}
       />
       <BottomTab.Screen
-        name='Search'
-        component={Search}
+        name='Home'
+        component={Home}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name='code' color={color} />,
+          tabBarIcon: ({ focused }) => <CirclIcon isFocused={focused} />,
         }}
       />
       <BottomTab.Screen
         name='Profile'
         component={Profile}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name='code' color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name='user' color={color} />,
         }}
       />
     </BottomTab.Navigator>
@@ -56,8 +55,8 @@ export function BottomTabNavigator() {
 }
 
 function TabBarIcon(props: {
-  name: React.ComponentProps<typeof FontAwesome>['name']
+  name: React.ComponentProps<typeof Feather>['name']
   color: string
 }) {
-  return <FontAwesome size={30} style={{ marginBottom: -3 }} {...props} />
+  return <Feather size={25} style={{ marginBottom: -3 }} {...props} />
 }
